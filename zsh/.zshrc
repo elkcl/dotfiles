@@ -150,7 +150,7 @@ fi
 source /etc/profile
 #eval "$(starship init zsh)"
 
-alias drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
+alias drop-caches='sudo paccache -rk1; yay -Sc --aur --noconfirm'
 alias upd-all='export TMPFILE="$(mktemp)"; \
     sudo true; \
     rate-mirrors --save=$TMPFILE arch --max-delay=21600 \
