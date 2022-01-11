@@ -151,8 +151,8 @@ source /etc/profile
 #eval "$(starship init zsh)"
 
 alias drop-caches='sudo paccache -rk1; yay -Sc --aur --noconfirm'
-alias upd-all='export TMPFILE="$(mktemp)"; \
-    sudo true; \
+alias upd-all='sudo true && \
+export TMPFILE="$(mktemp)" && \
     rate-mirrors --save=$TMPFILE arch --max-delay=21600 \
       && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
