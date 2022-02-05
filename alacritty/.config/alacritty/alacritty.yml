@@ -54,7 +54,8 @@ font:
     y: -1
   ligatures: true
 
-background_opacity: 0.9
+window:
+  opacity: 0.9
 
 cursor:
   style: Beam
