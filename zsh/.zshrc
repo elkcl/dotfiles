@@ -68,7 +68,7 @@ HYPHEN_INSENSITIVE="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting archlinux common-aliases)
+plugins=(git zsh-syntax-highlighting archlinux common-aliases zsh-autosuggestions)
 setopt autocd extendedglob
 
 source $ZSH/oh-my-zsh.sh
@@ -158,3 +158,5 @@ export TMPFILE="$(mktemp)" && \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && drop-caches \
       && yay -Syyu --noconfirm'
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=1'
