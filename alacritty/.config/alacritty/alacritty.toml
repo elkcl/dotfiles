@@ -1,0 +1,57 @@
+[colors.bright]
+black = "#52606b"
+blue = "#5486C0"
+cyan = "#50A5A4"
+green = "#89bd82"
+magenta = "#B77EB8"
+red = "#e44754"
+white = "#ffffff"
+yellow = "#F7BD51"
+
+[colors.cursor]
+cursor = "#ffffff"
+text = "#1b2b34"
+
+[colors.normal]
+black = "#121c21"
+blue = "#5486c0"
+cyan = "#50a5a4"
+green = "#89bd82"
+magenta = "#b77eb8"
+red = "#e44754"
+white = "#ffffff"
+yellow = "#f7bd51"
+
+[colors.primary]
+background = "#121b21"
+foreground = "#b3b8c3"
+
+[cursor]
+style = "Beam"
+
+[font]
+#ligatures = true
+size = 13.0
+
+[font.bold]
+family = "FantasqueSansM Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FantasqueSansM Nerd Font"
+style = "Bold Italic"
+
+[font.glyph_offset]
+x = -1
+y = 0
+
+[font.italic]
+family = "FantasqueSansM Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "FantasqueSansM Nerd Font"
+style = "Regular"
+
+[window]
+opacity = 0.9
